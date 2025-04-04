@@ -1,0 +1,30 @@
+title: CriptoEduar - Educación Crypto en YouTube
+description: Aprende criptomonedas con contenido práctico y revelador. Tutoriales para todos los niveles en español.
+baseurl: "" # la URL base del sitio, e.g. /blog
+url: "https://tu-dominio.github.io" # la URL de tu sitio
+twitter_username: tu-usuario-twitter
+github_username: ariasalejo
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - node_modules
+  - vendor/bundle/
+  - Gemfile.lock
+  - Gemfile
+  - README.md
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "CriptoEduar"
